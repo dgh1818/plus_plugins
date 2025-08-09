@@ -30,6 +30,8 @@ flutter:
       web:
         pluginClass: NetworkInfoPlusWebPlugin
         fileName: src/network_info_plus_web.dart
+      ohos:
+        default_package: network_info_plus_ohos
 
 dependencies:
   collection: ^1.17.0
@@ -42,6 +44,8 @@ dependencies:
   network_info_plus_platform_interface: ^2.0.2
   win32: ^5.5.3
   ffi: ^2.0.1
+
+  network_info_plus_ohos: ^0.0.4
 
 dev_dependencies:
   flutter_test:
